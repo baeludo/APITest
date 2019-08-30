@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restful import Api
-from model.classes import *
+from resources.Usuario import Usuario, Usuarios
 
 app = Flask(__name__)
 api = Api(app)
